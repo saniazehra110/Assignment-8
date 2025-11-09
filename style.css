@@ -1,0 +1,79 @@
+body{
+height: 100%;
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.container
+{
+display: flex;
+height: 100vh;
+}
+
+.sidebar{
+background-color: rosybrown;
+width: 25%;
+text-align: center;
+padding: 20px;
+position: fixed;
+display: inline-block;
+vertical-align: top;
+height: 100%;
+}
+.profile{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+
+}
+.sidebar ul{
+list-style-type: none;
+padding: 0;
+color: black;
+}
+.sidebar li{
+margin: 20px 0;
+font-weight: bold;
+}
+.main{
+width: 75%;
+padding: 50px;
+margin-left: 25%;
+overflow-y: auto;
+height: 100vh;
+}
+.main h1{
+font-size: 30px;
+color: olive;
+
+}
+
+.main p{
+color: gray;
+line-height: 1.5;
+}
+.icons i{
+font-size: 25px;
+margin: 10px;
+color: #333;
+}
+.personal h1{
+color: black;
+
+}
+.link a{
+color: black;
+}
+
+.trophy{
+font-size: 20px;
+display: flex;
+font-weight: bold;
+
+}
+
+.pic{
+width: 20px;
+height: 20px;
+vertical-align: middle;
+}
